@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" type="text/css">
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="js/scripts.js"></script>
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <title></title>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="jumbotron">
+    <h1> Celebrity Dating Quiz</h1>
+    </div>
+    <div class="container main">
+      <form>
+        <div class="form-group question">
+          <label for="question1" id="question1">Do you like to party?</label>
+          <select class="form-control" id="answer1">
+            <option value="3">Most likely</option>
+            <option value="2">less likely</option>
+            <option value="1">Not at all</option>
+          </select>
+        </div>
+        <div class="form-group question">
+          <label for="question2" id="question2">Do you like to go on adventure trips?</label>
+          <select class="form-control" id="answer2">
+            <option value="3">Most likely</option>
+            <option value="2">less likely</option>
+            <option value="1">Not at all</option>
+          </select>
+        </div>
+        <div class="form-group question">
+          <label for="question3" id="question3">Do you like to eat italian food?</label>
+          <select class="form-control" id="answer3">
+            <option value="3">Most likely</option>
+            <option value="2">less likely</option>
+            <option value="1">Not at all</option>
+          </select>
+        </div>
+        <div class="form-group question">
+          <label for="question4" id="question4">Do you like to watch movies?</label>
+          <select class="form-control" id="answer4">
+            <option value="3">Most likely</option>
+            <option value="2">less likely</option>
+            <option value="1">Not at all</option>
+          </select>
+        </div>
+        <div class="form-group question">
+          <label for="question5" id="question5">Do you like to eat tacos?</label>
+          <select class="form-control" id="answer5">
+            <option value="3">Most likely</option>
+            <option value="2">less likely</option>
+            <option value="1">Not at all</option>
+          </select>
+        </div>
+        <div class="form-group question">
+          <label for="question6" id="question6">Do you like to travel out of the country?</label>
+          <select class="form-control" id="answer6">
+            <option value="3">Most likely</option>
+            <option value="2">less likely</option>
+            <option value="1">Not at all</option>
+          </select>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+      <div id="results">
+        <div class='result' id="trump">
+        <img src="img/donald.jpg" alt="photo of donald trump" />
+        </div>
+        <div class='result' id="hanks">
+          <img src="img/tom.jpg" alt="photo of tom hanks" />
+        </div>
+        <div class='result' id="leo">
+          <img src="img/leo.jpg" alt="photo of leonardo Decaprio" />
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
